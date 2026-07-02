@@ -547,7 +547,7 @@
       <span class="stat-label">Travelers</span>
     </div>
     <div class="stat">
-      <span class="stat-num" id="total-fare">$4,221</span>
+      <span class="stat-num" id="total-fare">$4,304</span>
       <span class="stat-label">Est. total fare</span>
     </div>
     <div class="fare-toggle">
@@ -594,17 +594,17 @@
 
         <div class="stop reveal">
           <div class="card">
-            <div class="card-date">Thu Aug 6 · evening</div>
+            <div class="card-date">Thu Aug 6 · morning</div>
             <p class="card-route">NAP <span class="arrow">→</span> LHR</p>
             <p class="card-sub">Naples to London Heathrow</p>
-            <p class="card-meta">British Airways · Economy · Nonstop · 2h 50m</p>
-            <p class="card-time">8:00 PM&nbsp;&rarr;&nbsp;9:50 PM</p>
+            <p class="card-meta">British Airways · Economy · Nonstop · 3h 5m</p>
+            <p class="card-time">7:40 AM&nbsp;&rarr;&nbsp;9:45 AM</p>
             <div class="card-foot">
-              <span class="price" data-direct="124" data-best="124">$124</span>
+              <span class="price" data-direct="207" data-best="207">$207</span>
               <span class="price-note" data-direct-note="BA, direct — already cheapest" data-best-note="BA, direct — already cheapest">BA, direct — already cheapest</span>
             </div>
-            <p class="card-note">Book straight with BA — third-party sites price this route $37–41 higher.</p>
-            <a class="buy-link" href="https://www.google.com/travel/flights/search?tfs=CBwQAho_EgoyMDI2LTA4LTA2Ih8KA05BUBIKMjAyNi0wOC0wNhoDTEhSKgJCQTIDNTI5agcIARIDTkFQcgcIARIDTEhSQAFIAXABggELCP___________wGYAQI" target="_blank" rel="noopener">Search this flight &rarr;</a>
+            <p class="card-note">Moved earlier so you land by morning, not evening — costs $83 more than the last evening flight, but third-party sites still price this route $50+ higher, so stay direct with BA. You'll need an early start from Positano to make a 7:40 AM check-in at Naples.</p>
+            <a class="buy-link" href="https://www.google.com/travel/flights/search?tfs=CBwQAho_EgoyMDI2LTA4LTA2Ih8KA05BUBIKMjAyNi0wOC0wNhoDTEhSKgJCQTIDNTMxagcIARIDTkFQcgcIARIDTEhSQAFIAXABggELCP___________wGYAQI" target="_blank" rel="noopener">Search this flight &rarr;</a>
           </div>
         </div>
 
@@ -647,7 +647,7 @@
     <div class="converge-card">
       <p class="eyebrow">Reunited</p>
       <h2>London</h2>
-      <p class="sub">Aug 6 – 9 · three full days together before the flight home</p>
+      <p class="sub">Aug 6 (morning) – 9 · together from the first day, before the flight home</p>
       <div class="wedding">
         <span class="wd-date">Sat Aug 8</span>
         <span class="wd-label">The wedding</span>
@@ -705,9 +705,9 @@
           </tr>
           <tr>
             <td>NAP → LHR</td>
-            <td class="num">$124</td>
-            <td class="num">$124</td>
-            <td>British Airways direct is already cheapest</td>
+            <td class="num">$207</td>
+            <td class="num">$207</td>
+            <td>Moved to the 7:40 AM flight for a morning arrival — BA direct still cheapest</td>
           </tr>
           <tr>
             <td>LAX → LHR (VS142)</td>
@@ -733,7 +733,7 @@
   (function(){
     var buttons = document.querySelectorAll('.toggle-btns button');
     var totalEl = document.getElementById('total-fare');
-    var totals = { direct: 4221, best: 4116 };
+    var totals = { direct: 4304, best: 4199 };
 
     function setMode(mode){
       buttons.forEach(function(b){ b.classList.toggle('active', b.dataset.mode === mode); });
