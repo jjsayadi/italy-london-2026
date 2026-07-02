@@ -326,6 +326,29 @@
     border-top:1px solid var(--paper-line);
   }
 
+  .buy-link{
+    display:inline-flex;
+    align-items:center;
+    gap:0.35rem;
+    margin-top:0.75rem;
+    font-family:'Space Mono', monospace;
+    font-size:0.76rem;
+    letter-spacing:0.02em;
+    color:var(--lane-color, var(--majolica));
+    text-decoration:none;
+    border:1px solid currentColor;
+    border-radius:100px;
+    padding:0.4rem 0.85rem;
+    transition:background 0.15s ease, color 0.15s ease;
+  }
+  .buy-link:hover, .buy-link:focus-visible{
+    background:var(--lane-color, var(--majolica));
+    color:var(--paper);
+    outline:none;
+  }
+  .converge-card .buy-link{ color:var(--paper); }
+  .converge-card .buy-link:hover{ background:var(--paper); color:var(--ink); }
+
   /* stay node */
   .stay .card{
     background:transparent;
@@ -557,6 +580,7 @@
               <span class="price-note" data-direct-note="ITA, direct" data-best-note="via Adam Vacations">ITA, direct</span>
             </div>
             <p class="card-note">Evening departure — lands early afternoon in Rome, a full day before heading south.</p>
+            <a class="buy-link" href="https://www.google.com/travel/flights/search?tfs=CBwQAhpEEgoyMDI2LTA3LTMxIh8KA1NGTxIKMjAyNi0wNy0zMRoDRkNPKgJBWjIDNjQxagwIAhIIL20vMGQ2bHByBwgBEgNGQ09AAUgBcAGCAQsI____________AZgBAg" target="_blank" rel="noopener">Search this flight &rarr;</a>
           </div>
         </div>
 
@@ -580,6 +604,7 @@
               <span class="price-note" data-direct-note="BA, direct — already cheapest" data-best-note="BA, direct — already cheapest">BA, direct — already cheapest</span>
             </div>
             <p class="card-note">Book straight with BA — third-party sites price this route $37–41 higher.</p>
+            <a class="buy-link" href="https://www.google.com/travel/flights/search?tfs=CBwQAho_EgoyMDI2LTA4LTA2Ih8KA05BUBIKMjAyNi0wOC0wNhoDTEhSKgJCQTIDNTI5agcIARIDTkFQcgcIARIDTEhSQAFIAXABggELCP___________wGYAQI" target="_blank" rel="noopener">Search this flight &rarr;</a>
           </div>
         </div>
 
@@ -605,6 +630,7 @@
               <span class="price-note" data-direct-note="Virgin Atlantic, direct" data-best-note="via wego">Virgin Atlantic, direct</span>
             </div>
             <p class="card-note">Same flight as your uncle, who's driving him to LAX from Orange County. Book direct — easier to arrange an aisle seat and boarding assistance.</p>
+            <a class="buy-link" href="https://www.google.com/travel/flights/search?tfs=CBwQAho_EgoyMDI2LTA4LTAzIh8KA0xBWBIKMjAyNi0wOC0wMxoDTEhSKgJWUzIDMTQyagcIARIDTEFYcgcIARIDTEhSQAFIAXABggELCP___________wGYAQI" target="_blank" rel="noopener">Search this flight &rarr;</a>
           </div>
         </div>
 
@@ -647,6 +673,7 @@
             <span class="price-note" data-direct-note="per person, direct — $2,970 total" data-best-note="per person, via Travomint — $2,882 total">per person, direct — $2,970 total</span>
           </div>
           <p class="card-note">No flex on this date — book soon. Google's price tool flags this route as already running above average, and it tends to climb closer to departure, not drop.</p>
+          <a class="buy-link" href="https://www.google.com/travel/flights/search?tfs=CBwQAhoeEgoyMDI2LTA4LTA5agcIARIDTEhScgcIARIDU0ZPQAFIAXABggELCP___________wGYAQI" target="_blank" rel="noopener">Search this flight &rarr;</a>
         </div>
       </div>
     </div>
